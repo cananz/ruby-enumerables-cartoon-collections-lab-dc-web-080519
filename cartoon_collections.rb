@@ -6,13 +6,14 @@ def roll_call_dwarves(seven)
 end
 
 def summon_captain_planet(planeteer_calls)
-  #capitalize each element
-  #names.map! {|name| name.capitalize }
+   #capitalize each element
+   #add "!" to end of each element
   planeteer_calls.map! do |element|
     element.capitalize + "!"
   end
-  #add "!" to end of each element
-  #return updated array
+  summon_captain_planet(planeteer_calls)
+end
+  
 
   
 end
