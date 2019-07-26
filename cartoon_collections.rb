@@ -6,6 +6,9 @@ def roll_call_dwarves(seven)
 end
 
 def summon_captain_planet(planeteer_calls)
+  #capitalize each element
+  #add "!" to end of each element
+  #return updated array
   
 end
 
