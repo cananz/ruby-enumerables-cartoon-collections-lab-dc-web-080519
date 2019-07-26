@@ -9,9 +9,8 @@ def summon_captain_planet(planeteer_calls)
   #capitalize each element
   #names.map! {|name| name.capitalize }
   planeteer_calls.map! do |element|
-    element.capitalize
+    element.capitalize + "!"
   end
-  planeteer_calls.collect
   #add "!" to end of each element
   #return updated array
 
