@@ -19,4 +19,5 @@ end
 
 def find_the_cheese(snack_time)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  snack_time.find do |cheese|
 end
