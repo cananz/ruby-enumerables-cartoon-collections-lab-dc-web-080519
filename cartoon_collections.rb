@@ -9,8 +9,9 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map! do |element|
     element.capitalize + '!'
   end
-  return planeteer_calls
-end
+  
+return planeteer_calls
+
   
 
   
